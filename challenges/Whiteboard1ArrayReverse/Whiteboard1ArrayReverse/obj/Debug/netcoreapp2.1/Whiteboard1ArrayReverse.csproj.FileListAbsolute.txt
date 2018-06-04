@@ -1,0 +1,11 @@
+C:\Users\Max\codefellows\401 ASP.NET C#\Data-Structures-and-Algorithms\Whiteboard1ArrayReverse\Whiteboard1ArrayReverse\bin\Debug\netcoreapp2.1\Whiteboard1ArrayReverse.deps.json
+C:\Users\Max\codefellows\401 ASP.NET C#\Data-Structures-and-Algorithms\Whiteboard1ArrayReverse\Whiteboard1ArrayReverse\bin\Debug\netcoreapp2.1\Whiteboard1ArrayReverse.runtimeconfig.json
+C:\Users\Max\codefellows\401 ASP.NET C#\Data-Structures-and-Algorithms\Whiteboard1ArrayReverse\Whiteboard1ArrayReverse\bin\Debug\netcoreapp2.1\Whiteboard1ArrayReverse.runtimeconfig.dev.json
+C:\Users\Max\codefellows\401 ASP.NET C#\Data-Structures-and-Algorithms\Whiteboard1ArrayReverse\Whiteboard1ArrayReverse\bin\Debug\netcoreapp2.1\Whiteboard1ArrayReverse.dll
+C:\Users\Max\codefellows\401 ASP.NET C#\Data-Structures-and-Algorithms\Whiteboard1ArrayReverse\Whiteboard1ArrayReverse\bin\Debug\netcoreapp2.1\Whiteboard1ArrayReverse.pdb
+C:\Users\Max\codefellows\401 ASP.NET C#\Data-Structures-and-Algorithms\Whiteboard1ArrayReverse\Whiteboard1ArrayReverse\obj\Debug\netcoreapp2.1\Whiteboard1ArrayReverse.csprojAssemblyReference.cache
+C:\Users\Max\codefellows\401 ASP.NET C#\Data-Structures-and-Algorithms\Whiteboard1ArrayReverse\Whiteboard1ArrayReverse\obj\Debug\netcoreapp2.1\Whiteboard1ArrayReverse.csproj.CoreCompileInputs.cache
+C:\Users\Max\codefellows\401 ASP.NET C#\Data-Structures-and-Algorithms\Whiteboard1ArrayReverse\Whiteboard1ArrayReverse\obj\Debug\netcoreapp2.1\Whiteboard1ArrayReverse.AssemblyInfoInputs.cache
+C:\Users\Max\codefellows\401 ASP.NET C#\Data-Structures-and-Algorithms\Whiteboard1ArrayReverse\Whiteboard1ArrayReverse\obj\Debug\netcoreapp2.1\Whiteboard1ArrayReverse.AssemblyInfo.cs
+C:\Users\Max\codefellows\401 ASP.NET C#\Data-Structures-and-Algorithms\Whiteboard1ArrayReverse\Whiteboard1ArrayReverse\obj\Debug\netcoreapp2.1\Whiteboard1ArrayReverse.dll
+C:\Users\Max\codefellows\401 ASP.NET C#\Data-Structures-and-Algorithms\Whiteboard1ArrayReverse\Whiteboard1ArrayReverse\obj\Debug\netcoreapp2.1\Whiteboard1ArrayReverse.pdb
