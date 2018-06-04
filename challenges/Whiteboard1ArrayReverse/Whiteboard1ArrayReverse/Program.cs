@@ -17,7 +17,7 @@ namespace Whiteboard1ArrayReverse
             }
 
             //declare reversed array and display it
-            newArr = ReverseArray(newArr);
+            newArr = ArrayReverse(newArr);
 
             Console.Write("\nBackwards Arr: ");
             foreach (var num in newArr)
@@ -29,7 +29,7 @@ namespace Whiteboard1ArrayReverse
         }
 
         //doing the heavy lifting
-        public static int[] ReverseArray(int[] array)
+        public static int[] ArrayReverse(int[] array)
         {
             int[] revArr = new int[array.Length];
             //taking the OG array and putting it into a new, revArr.
