@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Max\\codefellows\\401 ASP.NET C#\\Data-Structures-and-Algorithms\\Whiteboard1ArrayReverse\\Whiteboard1ArrayReverse\\Whiteboard1ArrayReverse.csproj",
+      "projectUniqueName": "C:\\Users\\Max\\codefellows\\401 ASP.NET C#\\Data-Structures-and-Algorithms\\challenges\\Whiteboard1ArrayReverse\\Whiteboard1ArrayReverse\\Whiteboard1ArrayReverse.csproj",
       "projectName": "Whiteboard1ArrayReverse",
-      "projectPath": "C:\\Users\\Max\\codefellows\\401 ASP.NET C#\\Data-Structures-and-Algorithms\\Whiteboard1ArrayReverse\\Whiteboard1ArrayReverse\\Whiteboard1ArrayReverse.csproj",
+      "projectPath": "C:\\Users\\Max\\codefellows\\401 ASP.NET C#\\Data-Structures-and-Algorithms\\challenges\\Whiteboard1ArrayReverse\\Whiteboard1ArrayReverse\\Whiteboard1ArrayReverse.csproj",
       "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Max\\codefellows\\401 ASP.NET C#\\Data-Structures-and-Algorithms\\Whiteboard1ArrayReverse\\Whiteboard1ArrayReverse\\obj\\",
+      "outputPath": "C:\\Users\\Max\\codefellows\\401 ASP.NET C#\\Data-Structures-and-Algorithms\\challenges\\Whiteboard1ArrayReverse\\Whiteboard1ArrayReverse\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
