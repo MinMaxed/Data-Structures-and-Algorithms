@@ -28,11 +28,11 @@ namespace Whiteboard1ArrayReverse
             Console.ReadKey();
         }
 
-        //doing the heavy lifting
+        //does the real work
         public static int[] ArrayReverse(int[] array)
         {
             int[] revArr = new int[array.Length];
-            //taking the OG array and putting it into a new, revArr.
+            //taking the original array and putting it into a new, revArr.
             for (int i = 0, j = array.Length - 1; i < revArr.Length; i++, j--)
             {
                 revArr[i] = array[j];
