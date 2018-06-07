@@ -2,10 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\challenges",
+    "\\challenges\\Whiteboard1ArrayReverse",
+    "\\challenges\\Whiteboard1ArrayReverse\\Whiteboard1ArrayReverse",
     "\\challenges\\Whiteboard2BinarySearchSorted1DArray",
     "\\challenges\\Whiteboard2BinarySearchSorted1DArray\\BinarySearch",
     "\\challenges\\Whiteboard2BinarySearchSorted1DArray\\BinarySearch\\BinarySearch"
   ],
-  "SelectedNode": "\\challenges\\Whiteboard2BinarySearchSorted1DArray\\BinarySearch\\BinarySearch.sln",
+  "SelectedNode": "\\challenges\\Whiteboard1ArrayReverse\\Whiteboard1ArrayReverse\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

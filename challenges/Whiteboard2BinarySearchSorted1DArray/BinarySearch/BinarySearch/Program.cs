@@ -2,9 +2,9 @@
 
 namespace BinarySearch
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
 
@@ -23,7 +23,7 @@ namespace BinarySearch
 
         }
 
-        static int BinarySearch(int[] sortedArray, int key)
+        public static int BinarySearch(int[] sortedArray, int key)
         {
             int noIndex = -1;
             for (int i = 0; i < sortedArray.Length; i++)
