@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\challenges",
-    "\\challenges\\binary_search",
-    "\\challenges\\reverse_array",
-    "\\challenges\\Whiteboard32DArray",
-    "\\challenges\\Whiteboard32DArray\\Whiteboard32DArray"
+    "\\challenges\\adjacent_product",
+    "\\challenges\\binary_search\\binary_search"
   ],
-  "SelectedNode": "\\challenges\\Whiteboard32DArray\\Whiteboard32DArray\\Program.cs",
+  "SelectedNode": "\\challenges",
   "PreviewInSolutionExplorer": false
 }
