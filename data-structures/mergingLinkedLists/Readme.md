@@ -4,7 +4,7 @@
 Take 2 Linked lists of any lists and zip between the two, merging them into one list. 
 
 ## Visual
-![alt text]()
+![alt text](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/assets/WhiteboardMergedLinkedLists.jpg)
 
 
 ## Testing 
