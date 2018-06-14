@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\challenges",
-    "\\challenges\\adjacent_product",
-    "\\challenges\\binary_search\\binary_search"
+    "\\challenges\\ll_kth_from_end",
+    "\\challenges\\ll_kth_from_end\\ll_kth_from_end"
   ],
-  "SelectedNode": "\\challenges",
+  "SelectedNode": "\\challenges\\ll_kth_from_end\\ll_kth_from_end\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
