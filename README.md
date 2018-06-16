@@ -10,5 +10,7 @@
 
 4. [Kth From The End](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/ll_kth_from_end/Readme.md)
 
-5. [Merging Linked Lists] (https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/data-structures/mergingLinkedLists/Readme.md)
+5.[Linked Lists](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/LinkedLists/LinkList/Readme.MD) 
+
+6. [Merging Linked Lists](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/data-structures/mergingLinkedLists/Readme.md)
 
