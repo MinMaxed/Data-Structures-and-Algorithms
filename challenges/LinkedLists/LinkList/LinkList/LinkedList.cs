@@ -118,7 +118,7 @@ namespace LinkList
         /// <summary>
         /// finds the final node in the list then puts in the new node
         /// </summary>
-        /// <param name="newNode"></param>
+        /// <param name="newNode">the node being added</param>
         public void AddLast(Node newNode)
         {
             Current = Head;

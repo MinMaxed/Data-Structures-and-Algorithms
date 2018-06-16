@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\challenges",
-    "\\challenges\\ll_kth_from_end",
-    "\\challenges\\ll_kth_from_end\\ll_kth_from_end"
+    "\\challenges\\ll_kth_from_end\\ll_kth_from_end",
+    "\\data-structures",
+    "\\data-structures\\mergingLinkedLists"
   ],
-  "SelectedNode": "\\challenges\\ll_kth_from_end\\ll_kth_from_end\\Program.cs",
+  "SelectedNode": "\\data-structures\\mergingLinkedLists\\Readme.md",
   "PreviewInSolutionExplorer": false
 }
