@@ -12,5 +12,5 @@
 
 5.[Linked Lists](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/data-structures/LinkedLists/LinkList/Readme.MD) 
 
-6. [Merging Linked Lists](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/masterchallenges/mergingLinkedLists/Readme.md)
+6. [Merging Linked Lists](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/mergingLinkedLists/Readme.md)
 
