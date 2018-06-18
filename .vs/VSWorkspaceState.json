@@ -2,10 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\challenges",
-    "\\challenges\\ll_kth_from_end\\ll_kth_from_end",
+    "\\challenges\\LinkedLists",
+    "\\challenges\\LinkedLists\\LinkList",
+    "\\challenges\\LinkedLists\\LinkList\\XUnitTestProject1",
     "\\data-structures",
     "\\data-structures\\mergingLinkedLists"
   ],
-  "SelectedNode": "\\data-structures\\mergingLinkedLists\\Readme.md",
+  "SelectedNode": "\\challenges\\LinkedLists\\LinkList\\Readme.MD",
   "PreviewInSolutionExplorer": false
 }
