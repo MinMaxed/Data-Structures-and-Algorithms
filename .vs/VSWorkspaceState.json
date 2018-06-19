@@ -4,9 +4,9 @@
     "\\challenges",
     "\\data-structures",
     "\\data-structures\\LinkedLists",
-    "\\data-structures\\LinkedLists\\LinkList",
-    "\\data-structures\\LinkedLists\\LinkList\\LinkList"
+    "\\data-structures\\Stack_And_Queue",
+    "\\data-structures\\Stack_And_Queue\\Stack_And_Queue"
   ],
-  "SelectedNode": "\\data-structures\\LinkedLists\\LinkList\\LinkList\\LinkedList.cs",
+  "SelectedNode": "\\data-structures\\Stack_And_Queue\\Stack_And_Queue",
   "PreviewInSolutionExplorer": false
 }

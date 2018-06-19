@@ -16,5 +16,7 @@ namespace QueueWithStacks
             Value = value;
         }
 
+        public Node()
+        { }
     }
 }
