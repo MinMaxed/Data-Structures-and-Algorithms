@@ -2,12 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\challenges",
-    "\\challenges\\LinkedLists",
-    "\\challenges\\LinkedLists\\LinkList",
-    "\\challenges\\LinkedLists\\LinkList\\XUnitTestProject1",
     "\\data-structures",
-    "\\data-structures\\mergingLinkedLists"
+    "\\data-structures\\LinkedLists",
+    "\\data-structures\\LinkedLists\\LinkList",
+    "\\data-structures\\LinkedLists\\LinkList\\LinkList"
   ],
-  "SelectedNode": "\\challenges\\LinkedLists\\LinkList\\Readme.MD",
+  "SelectedNode": "\\data-structures\\LinkedLists\\LinkList\\LinkList\\LinkedList.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -7,6 +7,8 @@ namespace LinkList
     public class LinkedList
     {
 
+
+
         /// <summary>
         /// always points ot the first node in a linked list
         /// </summary>
@@ -16,6 +18,8 @@ namespace LinkList
         /// points to the 
         /// </summary>
         public Node Current { get; set; }
+
+
 
         public void LinkList(Node node)
         {
@@ -40,9 +44,9 @@ namespace LinkList
         public Node Find(int value)
         {
             Current = Head;
-            while(Current.Next != null)
+            while (Current.Next != null)
             {
-                if ( Current.Value == value)
+                if (Current.Value == value)
                 {
                     return Current;
                 }
@@ -76,14 +80,14 @@ namespace LinkList
         {
             //reset our Current to the beginning of the List, 
             Current = Head;
-           if(Head.Value == existingNode.Value)
+            if (Head.Value == existingNode.Value)
             {
                 AddNode(newNode);
                 return;
             }
             //makes sure that you are not at the end of the list ie that existingNode does exist, 
             while (Current.Next != null)
-            {   
+            {
                 if (Current.Next.Value == existingNode.Value)
                 {
                     newNode.Next = existingNode; //current.next;
@@ -102,7 +106,7 @@ namespace LinkList
                 Current.Next = newNode;
                 return;
             }
-            while ( Current.Next != null)
+            while (Current.Next != null)
             {
                 if (Current.Value == existingNode.Value)
                 {
@@ -129,5 +133,7 @@ namespace LinkList
             }
             Current.Next = newNode;
         }
+
+
     }
 }
