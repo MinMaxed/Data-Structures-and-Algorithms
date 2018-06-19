@@ -14,3 +14,5 @@
 
 6. [Merging Linked Lists](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/mergingLinkedLists/Readme.md)
 
+7 [Queue With Stacks](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/QueueWithStacks/Readme.md)
+
