@@ -2,11 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\challenges",
-    "\\data-structures",
+    "\\challenges\\QueueWithStacks",
+    "\\challenges\\QueueWithStacks\\QueueWithStacks",
     "\\data-structures\\LinkedLists",
     "\\data-structures\\Stack_And_Queue",
     "\\data-structures\\Stack_And_Queue\\Stack_And_Queue"
   ],
-  "SelectedNode": "\\data-structures\\Stack_And_Queue\\Stack_And_Queue",
+  "SelectedNode": "\\challenges\\QueueWithStacks\\QueueWithStacks\\Queue.cs",
   "PreviewInSolutionExplorer": false
 }
