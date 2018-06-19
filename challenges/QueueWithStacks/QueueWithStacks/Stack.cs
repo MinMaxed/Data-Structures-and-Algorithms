@@ -17,6 +17,10 @@ namespace QueueWithStacks
             Top = node;
         }
 
+        public Stack()
+        { }
+        
+
 
         //sets the new node as the top in the stack
         public void Push(Node node)
