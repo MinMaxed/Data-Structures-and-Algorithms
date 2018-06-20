@@ -26,12 +26,8 @@ namespace FIFOAnimalShelter
             animalShelter.Enqueue(node4);
             animalShelter.Enqueue(node5);
 
-            animalShelter.Dequeue("dog");
-
             animalShelter.Print();
             Console.WriteLine("----------");
-            Console.ReadKey();
-
 
             animalShelter.Dequeue("cat");
             animalShelter.Dequeue("bird");
@@ -39,9 +35,6 @@ namespace FIFOAnimalShelter
 
             animalShelter.Print();
             Console.ReadKey();
-
-
-
         }
     }
 }
