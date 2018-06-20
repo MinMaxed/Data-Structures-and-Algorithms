@@ -2,12 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\challenges",
-    "\\challenges\\QueueWithStacks",
-    "\\challenges\\QueueWithStacks\\QueueWithStacks",
-    "\\data-structures\\LinkedLists",
-    "\\data-structures\\Stack_And_Queue",
-    "\\data-structures\\Stack_And_Queue\\Stack_And_Queue"
+    "\\challenges\\FIFOAnimalShelter",
+    "\\challenges\\FIFOAnimalShelter\\FIFOAnimalShelter",
+    "\\challenges\\QueueWithStacks\\QueueWithStacks"
   ],
-  "SelectedNode": "\\challenges\\QueueWithStacks\\QueueWithStacks\\Queue.cs",
+  "SelectedNode": "\\challenges\\FIFOAnimalShelter\\FIFOAnimalShelter\\Node.cs",
   "PreviewInSolutionExplorer": false
 }

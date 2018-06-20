@@ -53,8 +53,11 @@ namespace FIFOAnimalShelter
             Node temp2 = Front;
 
             if (pref != "cat" && pref != "dog")
-            {           
-                return Front;
+            {
+                temp = Front;
+                Front = Front.Next;
+                temp.Next = null;
+                return temp;
             }
             if (pref == "dog" || pref == "cat")
             {
