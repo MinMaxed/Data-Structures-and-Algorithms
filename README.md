@@ -2,17 +2,18 @@
 
 
 ## Table of Contents
-1. [Reverse an Array](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/reverse_array/READEME.md)
+[Reverse an Array](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/reverse_array/READEME.md)
 
-2. [Binary Search](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/binary_search/readme.md)
+[Binary Search](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/binary_search/readme.md)
 
-3. [2D Array Product](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/adjacent_product/README.md)
+[2D Array Product](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/adjacent_product/README.md)
 
-4. [Kth From The End](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/ll_kth_from_end/Readme.md)
+[Kth From The End](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/ll_kth_from_end/Readme.md)
 
-5.[Linked Lists](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/data-structures/LinkedLists/LinkList/Readme.MD) 
+[Linked Lists](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/data-structures/LinkedLists/LinkList/Readme.MD) 
 
-6. [Merging Linked Lists](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/mergingLinkedLists/Readme.md)
+[Merging Linked Lists](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/mergingLinkedLists/Readme.md)
 
-7 [Queue With Stacks](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/QueueWithStacks/Readme.md)
+[Queue With Stacks](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/QueueWithStacks/Readme.md)
 
+[FIFO Animal Shelder](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/FIFOAnimalShelter/Readme.md)
