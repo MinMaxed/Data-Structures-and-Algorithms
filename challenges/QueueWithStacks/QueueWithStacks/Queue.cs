@@ -36,15 +36,13 @@ namespace QueueWithStacks
         /// </summary>
         /// <returns></returns>
         public Node Dequeue()
-        {
-           
+        {           
             while (Stack1.Top != null)
             {
                 Stack2.Push(Stack1.Pop());
                 if (Stack1.Top.Next == null)
                     Stack2.Push(Stack1.Pop());
             }
-
             return Stack2.Pop();
         }
     }
