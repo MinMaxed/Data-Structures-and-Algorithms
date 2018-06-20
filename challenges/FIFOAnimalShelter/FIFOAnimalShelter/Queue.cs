@@ -50,7 +50,6 @@ namespace FIFOAnimalShelter
         {
             Current = Front;
             Node temp = Front;
-            Node temp2 = Front;
 
             if (pref != "cat" && pref != "dog")
             {
@@ -70,24 +69,24 @@ namespace FIFOAnimalShelter
                 }
                 else
                 {
-                    while (Current.ValueAnimal != pref)
+                    while (Current.Next != null && Current.Next.ValueAnimal != pref)
                     {
-                        if (Current.Next == null)
-                        {
-                            temp = Front;
-                            Front = Front.Next;
-                            temp.Next = null;
-                            return temp;
-                        }
                         Current = Current.Next;
-                        temp2 = Current.Next;
-                        Current.Next = temp2.Next;
-                        temp2.Next = null;
                     }
+                    if (Current.Next == null)
+                    {
+                        temp = Front;
+                        Front = Front.Next;
+                        temp.Next = null;
+                        return temp;
+                    }
+                    Node temp2 = Current.Next;
+                    Current.Next = temp2.Next;
+                    temp2.Next = null;
                     return temp2;
                 }
             }
-            return temp2;
+            return temp;
         }
     }
 }
