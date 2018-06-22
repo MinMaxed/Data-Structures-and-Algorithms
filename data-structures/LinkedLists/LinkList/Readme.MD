@@ -1,18 +1,22 @@
 # Linked Lists
 
-## description
-fundamentals of nodes and linked lists, with core methods to be used for manipulating lists. Have tests for added to lists, and finding existing or non existing nodes on the list. 
-## visual
-![alt text]()
+## Description
+Fundamentals of nodes and linked lists, with core methods to be used for manipulating lists. Have tests for adding to lists, and finding existing or non existing nodes on the list. 
 
 
-## methods 
+## Visual
+![alt text](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/assets/LInkedListVisual.png)
+
+
+## Methods 
+Here are examples of how each method works. 
 
  LinkedList ll = new LinkedList();
 
 
  AddNode: adds a node to the beginning of the list;   
  ll.AddNode(newNode), ll.AddNode(newNode2) = newNode2 --> newNode --> null
+
 
  AddAfter: add a node after a previously existing node;
  ll.AddAfter(existingNode, newNode) = existingNode --> newNode --> otherNode --> null
