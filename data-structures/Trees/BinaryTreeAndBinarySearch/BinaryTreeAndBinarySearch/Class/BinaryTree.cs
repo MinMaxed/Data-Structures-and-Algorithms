@@ -4,59 +4,102 @@ using System.Text;
 
 namespace BinaryTreeAndBinarySearch.Class
 {
-    class BinaryTree
+    public class BinaryTree
     {
-
-
-
 
         /// <summary>
         /// traversals
         /// </summary>
-        public void PreOrder(Node node)
+        public void PreOrder(Node root)
         {
-            Console.WriteLine(node.Value);
+            Console.WriteLine(root.Value);
 
-            if (node.LeftChild != null)
+            if (root.LeftChild != null)
             {
-                PreOrder(node.LeftChild);
+                PreOrder(root.LeftChild);
             }
 
-            if (node.RightChild != null)
+            if (root.RightChild != null)
             {
-                PreOrder(node.RightChild);
+                PreOrder(root.RightChild);
             }
         }
 
-        public void InOrder(Node node)
+        public void InOrder(Node root)
         {
-            if (node.LeftChild != null)
+            if (root.LeftChild != null)
             {
-                InOrder(node.LeftChild);
+                InOrder(root.LeftChild);
             }
 
-            Console.WriteLine(node.Value);
+            Console.WriteLine(root.Value);
 
-            if (node.RightChild != null)
+            if (root.RightChild != null)
             {
-                InOrder(node.RightChild);
+                InOrder(root.RightChild);
             }
         }
 
-        public void PostOrder(Node node)
+        public void PostOrder(Node root)
         {
-            if (node.LeftChild != null)
+            if (root.LeftChild != null)
             {
-                PostOrder(node.LeftChild);
+                PostOrder(root.LeftChild);
             }
 
-            if (node.RightChild != null)
+            if (root.RightChild != null)
             {
-                PostOrder(node.RightChild);
+                PostOrder(root.RightChild);
             }
-            Console.WriteLine(node.Value);
+            Console.WriteLine(root.Value);
+        }
+
+        public void BreadthFirst(Node root)
+        {
+            Queue<Node> breadth = new Queue<Node>();
+            breadth.Enqueue(root);
+
+            while (breadth.TryPeek(out root))
+            {
+                Node front = breadth.Dequeue();
+                Console.Write(front.Value);
+                if (front.LeftChild != null)
+                {
+                    breadth.Enqueue(front.LeftChild);
+                }
+                if (front.RightChild != null)
+                {
+                    breadth.Enqueue(front.RightChild);
+                }
+            }
         }
 
 
+        public Node Search(Node root, int value)
+        {
+
+            if (root.Value == value)
+            {
+                return root;
+            }
+
+            if (root.LeftChild != null)
+            {
+                return Search(root.LeftChild, value);
+            }
+
+            if (root.RightChild != null)
+            {
+
+                return Search(root.RightChild, value);
+            }
+
+            return null;
+
+        }
+
+        public BinaryTree(Node node)
+        {
+        }
     }
 }

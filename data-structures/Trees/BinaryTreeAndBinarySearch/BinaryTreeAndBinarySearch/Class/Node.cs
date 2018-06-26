@@ -4,9 +4,10 @@ using System.Text;
 
 namespace BinaryTreeAndBinarySearch.Class
 {
-    class Node
+    public class Node
     {
         public int Value { get; set; }
+        public Node Next { get; set; }
 
         public Node LeftChild { get; set; }
         public Node RightChild { get; set; }
