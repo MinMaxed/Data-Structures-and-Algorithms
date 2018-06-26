@@ -17,3 +17,5 @@
 [Queue With Stacks](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/QueueWithStacks/Readme.md)
 
 [FIFO Animal Shelder](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/FIFOAnimalShelter/Readme.md)
+
+[Binary Tree and Binary Search Tree] (https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/data-structures/Trees/Readme.md)
