@@ -9,8 +9,9 @@ namespace BinaryTreeAndBinarySearch
         {
             Console.WriteLine("Hello World!");
 
+            BinaryTree();
+            Console.WriteLine("----------");
             BinarySearchTree();
-            //BinaryTree();
         }
 
         static void BinaryTree()

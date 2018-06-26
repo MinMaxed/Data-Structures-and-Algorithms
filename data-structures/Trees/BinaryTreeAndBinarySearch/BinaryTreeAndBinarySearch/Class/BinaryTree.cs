@@ -24,7 +24,7 @@ namespace BinaryTreeAndBinarySearch.Class
                 PreOrder(root.RightChild);
             }
         }
-        
+
         public void InOrder(Node root)
         {
             if (root.LeftChild != null)
@@ -73,14 +73,11 @@ namespace BinaryTreeAndBinarySearch.Class
                 }
             }
         }
- 
+
 
         public Node Search(Node root, int value)
         {
-            if (root == null)
-            {
-                return null;
-            }
+
             if (root.Value == value)
             {
                 return root;
@@ -91,14 +88,17 @@ namespace BinaryTreeAndBinarySearch.Class
                 return Search(root.LeftChild, value);
             }
 
-            else 
+            if (root.RightChild != null)
             {
+
                 return Search(root.RightChild, value);
             }
-       
+
+            return null;
+
         }
 
-        public  BinaryTree(Node node)
+        public BinaryTree(Node node)
         {
         }
     }

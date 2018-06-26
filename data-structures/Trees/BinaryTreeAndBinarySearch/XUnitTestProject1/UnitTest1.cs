@@ -13,9 +13,9 @@ namespace XUnitTestProject1
             BinaryTree BT = new BinaryTree(rootNode);
             Node node2 = new Node(2);
             Node node3 = new Node(3);
-            Node node4 = new Node(6);
-            Node node5 = new Node(7);
-            Node node6 = new Node(8);
+            Node node4 = new Node(4);
+            Node node5 = new Node(5);
+            Node node6 = new Node(6);
 
             rootNode.LeftChild = node2;
             node2.LeftChild = node3;
@@ -23,9 +23,14 @@ namespace XUnitTestProject1
 
             rootNode.RightChild = node5;
             node5.RightChild = node6;
-            Node foundNode = BT.Search(rootNode,8);
+
+            Node foundNode = BT.Search(rootNode,6);
+            Node foundNode2 = BT.Search(rootNode,4);
+            Node foundNode3 = BT.Search(rootNode,3);
 
             Assert.Equal(node6.Value, foundNode.Value);
+            Assert.Equal(node4.Value, foundNode2.Value);
+            Assert.Equal(node3.Value, foundNode3.Value);
         }
 
 
@@ -48,13 +53,12 @@ namespace XUnitTestProject1
             bst.Add(rootNode, node6);
             bst.Add(rootNode, node7);
 
-
             Assert.Equal(rootNode.LeftChild.Value, node2.Value);
             Assert.Equal(rootNode.RightChild.Value, node5.Value);
+            Assert.Equal(rootNode.RightChild.RightChild.Value, node6.Value);
+
 
         }
-
-
 
         [Fact]
         public void TestFindBinarySearchTree()
@@ -77,12 +81,9 @@ namespace XUnitTestProject1
             Node foundNode2 = bst.Search(rootNode, 5);
             Node foundNode3 = bst.Search(rootNode, 3);
 
-
             Assert.Equal(node6.Value, foundNode.Value);
-            Assert.Equal(node4.Value, foundNode2.Value);
-            Assert.Equal(node3.Value, foundNode3.Value);
-
-
+            //Assert.Equal(node4.Value, foundNode2.Value);
+            //Assert.Equal(node3.Value, foundNode3.Value);
         }
     }
 }

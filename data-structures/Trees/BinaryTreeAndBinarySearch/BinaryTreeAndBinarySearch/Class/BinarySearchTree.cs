@@ -7,31 +7,35 @@ namespace BinaryTreeAndBinarySearch.Class
     //public class BinarySearchTree : BinaryTree
     public class BinarySearchTree
     {
+        /// <summary>
+        /// while there's a value, check if it matches, otherwise go down the left
+        /// side until there's no left, then go down the right
+        /// </summary>
+        /// <param name="root">the "current" of these traversals. </param>
+        /// <param name="value"> the value of the node that we want to find</param>
+        /// <returns></returns>
         public Node Search(Node root, int value)
         {
-            if (root == null)
+       
+            if (root != null)
             {
-                return null;
-            }
+                if (root.Value == value)
+                {
+                    return root;
+                }
 
-            if (root.Value == value)
-            {
-                return root;
-            }
+                if (root.Value > value)
+                {
+                    return Search(root.LeftChild, value);
 
-            if (root.Value > value)
-            {
-                return Search(root.RightChild, value);
-            }
+                }
+                if (root.Value < value)
+                {
+                    return Search(root.RightChild, value);
 
-            if (root.Value < value)
-            {
-                return Search(root.LeftChild, value);
-            }
-            else
-            {
-                return null;
-            }
+                }
+           }
+            return null;
         }
 
         /// <summary>
