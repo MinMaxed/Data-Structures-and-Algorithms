@@ -1,11 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\challenges",
-    "\\challenges\\FIFOAnimalShelter",
     "\\challenges\\FIFOAnimalShelter\\FIFOAnimalShelter",
-    "\\challenges\\QueueWithStacks\\QueueWithStacks"
+    "\\data-structures",
+    "\\data-structures\\Trees",
+    "\\data-structures\\Trees\\BinaryTreeAndBinarySearch",
+    "\\data-structures\\Trees\\BinaryTreeAndBinarySearch\\BinaryTreeAndBinarySearch",
+    "\\data-structures\\Trees\\BinaryTreeAndBinarySearch\\BinaryTreeAndBinarySearch\\Class"
   ],
-  "SelectedNode": "\\challenges\\FIFOAnimalShelter\\FIFOAnimalShelter\\Node.cs",
+  "SelectedNode": "\\data-structures\\Trees\\BinaryTreeAndBinarySearch\\BinaryTreeAndBinarySearch\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
