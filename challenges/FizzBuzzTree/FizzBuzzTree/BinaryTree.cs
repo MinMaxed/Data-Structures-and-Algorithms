@@ -53,8 +53,7 @@ namespace FizzBuzzTree
         /// <param name="nodeValue">the string input that'll get modified</param>
         /// <returns>a fizz buzzed value to be put back into the nodes</returns>
         public string FizzBuzz(string nodeValue)
-        {
-            
+        {            
             int value = Convert.ToInt32(nodeValue);
             string returnValue;
             if (value % 3 == 0 && value % 5 == 0)
