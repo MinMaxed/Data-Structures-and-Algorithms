@@ -63,6 +63,8 @@ namespace BinaryTreeAndBinarySearch.Class
             {
                 Node front = breadth.Dequeue();
                 Console.Write(front.Value);
+
+
                 if (front.LeftChild != null)
                 {
                     breadth.Enqueue(front.LeftChild);
