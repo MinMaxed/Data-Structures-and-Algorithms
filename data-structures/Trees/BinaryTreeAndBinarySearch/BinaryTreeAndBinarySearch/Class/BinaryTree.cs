@@ -10,20 +10,20 @@ namespace BinaryTreeAndBinarySearch.Class
         /// <summary>
         /// traversals
         /// </summary>
-        public void PreOrder(Node root)
-        {
-            Console.WriteLine(root.Value);
-
-            if (root.LeftChild != null)
+            public void PreOrder(Node root)
             {
-                PreOrder(root.LeftChild);
-            }
+                Console.WriteLine(root.Value);
 
-            if (root.RightChild != null)
-            {
-                PreOrder(root.RightChild);
+                if (root.LeftChild != null)
+                {
+                    PreOrder(root.LeftChild);
+                }
+
+                if (root.RightChild != null)
+                {
+                    PreOrder(root.RightChild);
+                }
             }
-        }
 
         public void InOrder(Node root)
         {
@@ -63,6 +63,7 @@ namespace BinaryTreeAndBinarySearch.Class
             {
                 Node front = breadth.Dequeue();
                 Console.Write(front.Value);
+
                 if (front.LeftChild != null)
                 {
                     breadth.Enqueue(front.LeftChild);
