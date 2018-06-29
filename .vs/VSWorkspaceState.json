@@ -1,13 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\challenges\\FIFOAnimalShelter\\FIFOAnimalShelter",
-    "\\data-structures",
+    "\\challenges",
+    "\\challenges\\FizzBuzzTree",
+    "\\challenges\\FizzBuzzTree\\FizzBuzzTree",
     "\\data-structures\\Trees",
     "\\data-structures\\Trees\\BinaryTreeAndBinarySearch",
     "\\data-structures\\Trees\\BinaryTreeAndBinarySearch\\BinaryTreeAndBinarySearch",
     "\\data-structures\\Trees\\BinaryTreeAndBinarySearch\\BinaryTreeAndBinarySearch\\Class"
   ],
-  "SelectedNode": "\\data-structures\\Trees\\BinaryTreeAndBinarySearch\\BinaryTreeAndBinarySearch\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
