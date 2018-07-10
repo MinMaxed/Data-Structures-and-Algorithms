@@ -8,8 +8,13 @@ namespace Graphs
     {
         public int Value { get; set; }
         public bool Visited { get; set; } = false;
-        public Node Children { get; set; }
-        public Node Edge { get; set; }
+        public List<Node> Children { get; set; }
+
+        public Node(int value)
+        {
+            Value = value;
+            Children = new List<Node>();
+        }
 
     }
 }

@@ -7,26 +7,60 @@ namespace Graphs
     public class Graph
     {
         public Node Node { get; set; }
-
-        public void AddEdge()
+        public int Edge { get; set; }
+        
+        /// <summary>
+        /// add node as child of first node
+        /// </summary>
+        /// <param name="node1">parent node</param>
+        /// <param name="node2">child node</param>
+        /// <returns>parent node</returns>
+        public Node AddEdge(Node node1, Node node2)
         {
+            node1.Children.Add(node2);
+
+            return node1;
         }
 
-        public List<Node> GetNodes()
+        /// <summary>
+        /// traverse all nodes and add em to a list
+        /// </summary>
+        /// <param name="root">starting point of graph</param>
+        /// <returns>the traversal of all the nodes in the graph</returns>
+        public List<Node> GetNodes(Node root)
         {
+            return BreadthFirst(root);
 
         }
 
-        public List<Node> GetNeighbors()
+        /// <summary>
+        /// get the nodes connected to the root, or its children
+        /// </summary>
+        /// <param name="root">starting out point</param>
+        /// <returns>children of the root</returns>
+        public List<Node> GetNeighbors(Node root)
         {
+            List<Node> Neighbors = new List<Node>(root.Children);
 
+            return Neighbors;
         }
 
-        public int Size()
+        /// <summary>
+        /// traverses graph then returns the Count
+        /// </summary>
+        /// <param name="root">graph starting point</param>
+        /// <returns>amount of nodes found in traversal</returns>
+        public int Size(Node root)
         {
-
+            
+            return BreadthFirst(root).Count;
         }
 
+        /// <summary>
+        /// traverse a graph
+        /// </summary>
+        /// <param name="root">starting point</param>
+        /// <returns>list of nodes in the graph</returns>
         public List<Node> BreadthFirst(Node root)
         {
             List<Node> order = new List<Node>();
@@ -36,6 +70,10 @@ namespace Graphs
             while (breadth.TryPeek(out root))
             {
                 Node front = breadth.Dequeue();
+
+                //placement could be wrong
+                front.Visited = true;
+
                 order.Add(front);
 
                 foreach (Node child in front.Children)
