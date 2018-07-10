@@ -6,9 +6,10 @@ namespace Graphs
 {
     public class Graph
     {
-        public Node Node { get; set; }
-        public int Edge { get; set; }
-        
+        public Graph()
+        {
+
+        }
         /// <summary>
         /// add node as child of first node
         /// </summary>
@@ -18,6 +19,7 @@ namespace Graphs
         public Node AddEdge(Node node1, Node node2)
         {
             node1.Children.Add(node2);
+            node2.Children.Add(node1);
 
             return node1;
         }
@@ -52,8 +54,10 @@ namespace Graphs
         /// <returns>amount of nodes found in traversal</returns>
         public int Size(Node root)
         {
-            
-            return BreadthFirst(root).Count;
+            var orderSize = this.BreadthFirst(root);
+
+
+            return orderSize.Count;
         }
 
         /// <summary>
@@ -66,13 +70,12 @@ namespace Graphs
             List<Node> order = new List<Node>();
             Queue<Node> breadth = new Queue<Node>();
             breadth.Enqueue(root);
+                //placement could be wrong
+                root.Visited = true;
 
             while (breadth.TryPeek(out root))
             {
                 Node front = breadth.Dequeue();
-
-                //placement could be wrong
-                front.Visited = true;
 
                 order.Add(front);
 
@@ -84,6 +87,10 @@ namespace Graphs
                         breadth.Enqueue(child);
                     }
                 }
+            }
+            foreach (var node in order)
+            {
+                node.Visited = false;
             }
             return order;
         }

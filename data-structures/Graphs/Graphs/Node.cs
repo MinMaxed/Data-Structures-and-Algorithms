@@ -6,11 +6,11 @@ namespace Graphs
 {
     public class Node
     {
-        public int Value { get; set; }
+        public string Value { get; set; }
         public bool Visited { get; set; } = false;
         public List<Node> Children { get; set; }
 
-        public Node(int value)
+        public Node(string value)
         {
             Value = value;
             Children = new List<Node>();
