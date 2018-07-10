@@ -7,8 +7,6 @@ namespace Graphs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
             Node root = new Node("a");
             Node node1 = new Node("b");
             Node node2 = new Node("c");
@@ -27,6 +25,7 @@ namespace Graphs
             graph.AddEdge(node3, node5);
             graph.AddEdge(node4, node5);
 
+            Console.WriteLine("All of the edges");
             //a looks at b, c, 
             Console.WriteLine($"{root.Value} --> {node1.Value}");
             Console.WriteLine($"{root.Value} --> {node2.Value}");
@@ -46,15 +45,17 @@ namespace Graphs
             Console.WriteLine($"{node4.Value} --> {node5.Value}");
             Console.WriteLine("---------------------");
 
+            Console.WriteLine("Graph size");
 
             int Size = graph.Size(root);
             Console.WriteLine($"the graph size is {Size}");
-
             Console.WriteLine("---------------------");
+
 
             //traversal
             //List<Node> nodes = graph.BreadthFirst(root);
             var nodes = graph.BreadthFirst(root);
+            Console.WriteLine("All of the values from a traversal");
 
             foreach (var item in nodes)
             {
@@ -63,22 +64,28 @@ namespace Graphs
 
             Console.WriteLine("---------------------");
 
+            //GetNodes
+            //List<Node> nodes = graph.BreadthFirst(root);
+            var nodes2 = graph.GetNodes(root);
+            Console.WriteLine("All of the values from GetNodes");
 
+            foreach (var item in nodes2)
+            {
+                Console.WriteLine($"{item.Value}");
+            }
 
+            Console.WriteLine("---------------------");
 
             //neighbors of root
             List<Node> neighbors = graph.GetNeighbors(root);
-
+            Console.WriteLine($"These are the neighbors of {root.Value}");
             foreach (var item in neighbors)
             {
                 Console.WriteLine($"{item.Value} is a neighbor of {root.Value}");
             }
             Console.WriteLine("---------------------");
-;
-
 
             Console.ReadLine();
-
 
         }
 
