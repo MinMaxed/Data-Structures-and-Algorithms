@@ -8,7 +8,7 @@ namespace HashTables
     {
         public LinkedList<> Bucket;
 
-        public int asciiValue (string key)
+        public int asciiValue (string key, LinkedList<> Bucket)
         {
             int value = 0;
             for (int i = 0; i < key.Length; i++)
@@ -16,7 +16,9 @@ namespace HashTables
                 value += key[i];
             }
 
-            return value;
+            int hashedValue = (value * 1087) % Bucket.Length;
+
+            return hashedValue;
 
         }
 
