@@ -1,13 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\challenges",
-    "\\challenges\\FizzBuzzTree",
     "\\challenges\\FizzBuzzTree\\FizzBuzzTree",
-    "\\data-structures\\Trees",
+    "\\data-structures",
+    "\\data-structures\\Graphs",
+    "\\data-structures\\Graphs\\Graphs",
+    "\\data-structures\\Graphs\\XUnitTestProject1",
     "\\data-structures\\Trees\\BinaryTreeAndBinarySearch",
     "\\data-structures\\Trees\\BinaryTreeAndBinarySearch\\BinaryTreeAndBinarySearch",
     "\\data-structures\\Trees\\BinaryTreeAndBinarySearch\\BinaryTreeAndBinarySearch\\Class"
   ],
+  "SelectedNode": "\\data-structures\\Graphs\\Graphs\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
