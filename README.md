@@ -25,3 +25,5 @@
 [Find Max Value](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/FindMaxValue/Readme.md)
 
 [Graphs](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/data-structures/Graphs/Readme.md)
+
+[Hash Tables](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/data-structures/HashTables/Readme.md)
