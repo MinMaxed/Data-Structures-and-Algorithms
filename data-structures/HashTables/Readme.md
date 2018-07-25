@@ -12,5 +12,5 @@ they will be added into the Linked List/Binary Tree/Whatever you're using, that'
 This table has Add, Find, Contains, and can ascii value-ify a string. It also accounts for collisions. collision test strings provided by classmates
 ## Visual
 
-![console visual]()
+![console visual](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/assets/HashTable.png)
 
