@@ -8,5 +8,9 @@ They can be organized to look like a number of other structures, but I find Link
 The hashing of the key is used to help make the values unique, but in the event that the hashing results in multiple indexes of the same value,
 they will be added into the Linked List/Binary Tree/Whatever you're using, that's at that index. These situations are known as colisions. 
 
+
+This table has Add, Find, Contains, and can ascii value-ify a string. It also accounts for collisions. collision test strings provided by classmates
 ## Visual
+
+![console visual]()
 
