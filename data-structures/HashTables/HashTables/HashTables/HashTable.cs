@@ -4,13 +4,17 @@ using System.Text;
 
 namespace HashTables
 {
-    class HashTable
+    public class HashTable
     {
-        public Node[] Bucket { get; set; }
+         Node[] Bucket { get; set; }
 
-        public HashTable()
+        /// <summary>
+        /// size should be big, 1024 or higher
+        /// </summary>
+        /// <param name="size">number of nodes in bucket</param>
+        public HashTable(int size)
         {
-            Bucket = new Node[1024];
+            Bucket = new Node[size];
         }
 
         /// <summary>
@@ -37,7 +41,7 @@ namespace HashTables
         /// </summary>
         /// <param name="key">key of added node</param>
         /// <param name="value">value of added node</param>
-        public void Add(string key, int value)
+        public Node Add(string key, int value)
         {
             Node node = new Node
             {
@@ -50,7 +54,9 @@ namespace HashTables
             {
                 node.Next = Bucket[i];
             }
-            Bucket[i] = node;     
+            Bucket[i] = node;
+
+            return node;
         }
 
         /// <summary>

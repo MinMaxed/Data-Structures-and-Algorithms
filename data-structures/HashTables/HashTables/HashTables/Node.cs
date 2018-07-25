@@ -4,10 +4,12 @@ using System.Text;
 
 namespace HashTables
 {
-    class Node
+    public class Node
     {
         public string Key { get; set; }
         public int Value { get; set; }
         public Node Next { get; set; }
+
+    
     }
 }
