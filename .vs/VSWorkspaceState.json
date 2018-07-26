@@ -1,13 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\challenges",
-    "\\challenges\\QueueWithStacks",
-    "\\challenges\\QueueWithStacks\\QueueWithStacks",
-    "\\data-structures\\LinkedLists",
-    "\\data-structures\\Stack_And_Queue",
-    "\\data-structures\\Stack_And_Queue\\Stack_And_Queue"
+    "\\data-structures",
+    "\\data-structures\\HashTables",
+    "\\data-structures\\HashTables\\HashTables\\HashTables"
   ],
-  "SelectedNode": "\\challenges\\QueueWithStacks\\QueueWithStacks\\Queue.cs",
+  "SelectedNode": "\\data-structures\\HashTables\\Readme.md",
   "PreviewInSolutionExplorer": false
 }
