@@ -12,12 +12,11 @@ namespace InsertionSort
             int[] testArr3 = new int[] { 1, 2, 5, 19, 22, 111, 444 };
 
             Print(testArr);
-            //Console.WriteLine("----------");
-            //InsertionSort(testArr);
-            //Print(testArr);
-            Console.WriteLine("----------");
-            InsertionSort(testArr3);
-            Print(testArr3);
+            Console.WriteLine("------");
+            InsertionSort(testArr);
+            Print(testArr);
+            Console.WriteLine("-^sorted-");
+
             Console.ReadKey();
 
 
