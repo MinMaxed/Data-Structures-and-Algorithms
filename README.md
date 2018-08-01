@@ -29,3 +29,5 @@
 [Hash Tables](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/data-structures/HashTables/Readme.md)
 
 [Insertion Sort](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/data-structures/InsertionSort/InsertionSort/Readme.md)
+
+[Quick Sort](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/challenges/QuickSort/Readme.MD)
