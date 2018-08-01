@@ -8,4 +8,4 @@ to largest.
 
 
 ## Visual
-![Alt Text]()
+![Alt Text](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/assets/Quick%20Sort.png)
