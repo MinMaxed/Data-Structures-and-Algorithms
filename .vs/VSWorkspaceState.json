@@ -3,8 +3,9 @@
     "",
     "\\data-structures",
     "\\data-structures\\Graphs",
-    "\\data-structures\\HashTables"
+    "\\data-structures\\InsertionSort",
+    "\\data-structures\\InsertionSort\\InsertionSort"
   ],
-  "SelectedNode": "\\data-structures\\HashTables\\Readme.md",
+  "SelectedNode": "\\data-structures\\InsertionSort\\InsertionSort\\Readme.md",
   "PreviewInSolutionExplorer": false
 }
