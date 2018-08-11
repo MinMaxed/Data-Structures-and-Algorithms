@@ -6,4 +6,4 @@ in half and compares the values in the front of each half of the array. It combi
 and returns a sorted array
 
 ## Visual
-![Whiteboard]()
+![Whiteboard](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/assets/MergeSort.jpg)
