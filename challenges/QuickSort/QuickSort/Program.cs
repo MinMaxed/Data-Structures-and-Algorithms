@@ -8,7 +8,8 @@ namespace QuickSort
         {
             Console.WriteLine("Hello World!");
 
-            int[] unsorted = { 5, 23, 8, 15, 19, 3, 7 };
+            int[] unsorted2 = { 5, 15, 8, 23, 19, 3, 7, 14, 2 };
+            int[] unsorted = new int[] { 5, 12, 51, 72, 23, 53, 11, 23, 621, 1, -25 };
             Print(unsorted);
             Console.WriteLine("-------");
             QuickSort(unsorted, 0, unsorted.Length - 1);
@@ -65,12 +66,16 @@ namespace QuickSort
                     r--;
                 }
             }
+                Console.Write($"pivot {pivot}: ");
             if(left < r)
             {
+                Print(elements);
                 QuickSort(elements, left, r);
             }
             if(l < right)
             {
+
+                Print(elements);
                 QuickSort(elements, l, right);
             }
 
