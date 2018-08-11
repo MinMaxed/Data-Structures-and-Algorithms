@@ -16,7 +16,7 @@ namespace MergeSort
 
 
         }
-
+        //take in an array a left and right bound (always starts with 0 and array.Lenght -1) and recursively sorts
         public static int[] MergeSort(int[] arr, int left, int right)
         {
             if (left < right)
@@ -30,7 +30,7 @@ namespace MergeSort
             }
             return arr;
         }
-
+        //takes in the initial array, left bound, a middle value, and a right bound. then it divides the arrays in two and compares
         public static void DoMerge(int[] arr, int left, int middle, int right)
         {
             int left2 = middle - left + 1;
