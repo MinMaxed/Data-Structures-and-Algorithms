@@ -6,4 +6,4 @@ Starts from 1s up until as high as it needs to check, and will organize by those
 push those array values further towards the back. 
 
 ## Visual
-![Radix Sort Whiteboard]()
+![Radix Sort Whiteboard](https://github.com/MinMaxed/Data-Structures-and-Algorithms/blob/master/assets/RadixSort.jpg)
