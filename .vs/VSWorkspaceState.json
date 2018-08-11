@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\challenges",
     "\\data-structures",
-    "\\data-structures\\Graphs",
     "\\data-structures\\InsertionSort",
-    "\\data-structures\\InsertionSort\\InsertionSort"
+    "\\data-structures\\Trees",
+    "\\data-structures\\Trees\\BinaryTreeAndBinarySearch"
   ],
-  "SelectedNode": "\\data-structures\\InsertionSort\\InsertionSort\\Readme.md",
+  "SelectedNode": "\\challenges\\MergeSort",
   "PreviewInSolutionExplorer": false
 }
